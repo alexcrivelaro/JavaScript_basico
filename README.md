@@ -1,3 +1,3 @@
 # JavaScript Básico.
 
-## Pricipais comandos em JavaScript básico.
+## Principais comandos do JavaScript básico.

@@ -4,19 +4,34 @@
     <meta charset="UTF-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Modificando o html</title>
-    <script type="text/javascript" src="JS-09-Modificando-o-html.js"></script>
+    <title>Criando funcões</title>
+    <script type="text/javascript" src="JS-10-Criando-funcoes.js"></script>
 </head>
     <body>
         <h1>Página do curso de JavaScript Básico.</h1>
         <br>
-        <div id="area">Trocando o texto...</div>
+        
+        <h2>Passagem por atribuição</h2>
+        <br>
+        <div id="area">Ação.</div>
         <br><br>
-        <button onclick="document.getElementById('area').innerHTML= prompt('Qual seu nome?');">Trocar o texto</button>
+        <button onclick="trocarDiv()">Coloca o nome</button> 
         <br><br>
-        <div id="botao">Trocando o botão...</div>
+        <br>
+        
+        <h2>Passagem por atribuição com parâmetro</h2>
+        <br>
+        <div id="sobreNome">Alexandre </div>
         <br><br>
-        <button onclick="this.innerHTML= prompt('Qual o nome do botão?');">Trocar o botão</button>
+        <button onclick="colocaSobreNome('Alexandre')">Adiciona o sobrenome.</button> 
+
+        <h2>Passagem por atribuição com dois parâmetros</h2>
+        <br>
+        <div id="sobreIdade">20 </div>
+        <br><br>
+        <button onclick="colocaIdade('Alexandre', 30)">Adiciona sobrenome com a idade.</button> 
+
+        
         
     </body>
 
